@@ -1,0 +1,899 @@
+{
+  "edition": "2026-11-01",
+  "scope": "synthetic analytical results; no empirical estimates",
+  "models": {
+    "reliability": {
+      "scope": "hypothetical sensitivity analysis",
+      "assumptions": [
+        "All steps are required; no retries or recovery.",
+        "Steps are independent conditional on no common-mode failure.",
+        "Common-mode failure blocks every nonempty workflow."
+      ],
+      "rows": [
+        {
+          "steps": 1,
+          "step_success": 0.95,
+          "common_failure": 0.0,
+          "completion": 0.95
+        },
+        {
+          "steps": 1,
+          "step_success": 0.95,
+          "common_failure": 0.02,
+          "completion": 0.9309999999999999
+        },
+        {
+          "steps": 5,
+          "step_success": 0.95,
+          "common_failure": 0.0,
+          "completion": 0.7737809374999998
+        },
+        {
+          "steps": 5,
+          "step_success": 0.95,
+          "common_failure": 0.02,
+          "completion": 0.7583053187499997
+        },
+        {
+          "steps": 10,
+          "step_success": 0.95,
+          "common_failure": 0.0,
+          "completion": 0.5987369392383787
+        },
+        {
+          "steps": 10,
+          "step_success": 0.95,
+          "common_failure": 0.02,
+          "completion": 0.586762200453611
+        },
+        {
+          "steps": 20,
+          "step_success": 0.95,
+          "common_failure": 0.0,
+          "completion": 0.3584859224085419
+        },
+        {
+          "steps": 20,
+          "step_success": 0.95,
+          "common_failure": 0.02,
+          "completion": 0.35131620396037105
+        },
+        {
+          "steps": 1,
+          "step_success": 0.98,
+          "common_failure": 0.0,
+          "completion": 0.98
+        },
+        {
+          "steps": 1,
+          "step_success": 0.98,
+          "common_failure": 0.02,
+          "completion": 0.9603999999999999
+        },
+        {
+          "steps": 5,
+          "step_success": 0.98,
+          "common_failure": 0.0,
+          "completion": 0.9039207967999999
+        },
+        {
+          "steps": 5,
+          "step_success": 0.98,
+          "common_failure": 0.02,
+          "completion": 0.8858423808639999
+        },
+        {
+          "steps": 10,
+          "step_success": 0.98,
+          "common_failure": 0.0,
+          "completion": 0.8170728068875467
+        },
+        {
+          "steps": 10,
+          "step_success": 0.98,
+          "common_failure": 0.02,
+          "completion": 0.8007313507497957
+        },
+        {
+          "steps": 20,
+          "step_success": 0.98,
+          "common_failure": 0.0,
+          "completion": 0.6676079717550942
+        },
+        {
+          "steps": 20,
+          "step_success": 0.98,
+          "common_failure": 0.02,
+          "completion": 0.6542558123199923
+        },
+        {
+          "steps": 1,
+          "step_success": 0.995,
+          "common_failure": 0.0,
+          "completion": 0.995
+        },
+        {
+          "steps": 1,
+          "step_success": 0.995,
+          "common_failure": 0.02,
+          "completion": 0.9751
+        },
+        {
+          "steps": 5,
+          "step_success": 0.995,
+          "common_failure": 0.0,
+          "completion": 0.975248753121875
+        },
+        {
+          "steps": 5,
+          "step_success": 0.995,
+          "common_failure": 0.02,
+          "completion": 0.9557437780594374
+        },
+        {
+          "steps": 10,
+          "step_success": 0.995,
+          "common_failure": 0.0,
+          "completion": 0.9511101304657719
+        },
+        {
+          "steps": 10,
+          "step_success": 0.995,
+          "common_failure": 0.02,
+          "completion": 0.9320879278564564
+        },
+        {
+          "steps": 20,
+          "step_success": 0.995,
+          "common_failure": 0.0,
+          "completion": 0.9046104802746175
+        },
+        {
+          "steps": 20,
+          "step_success": 0.995,
+          "common_failure": 0.02,
+          "completion": 0.8865182706691251
+        }
+      ]
+    },
+    "marketplace": {
+      "scope": "unestimated mechanism model",
+      "assumptions": [
+        "Symmetric populations, logistic response, fixed outside option.",
+        "Portability only reduces host-specific cross-side feedback.",
+        "No prices, strategic entrants, heterogeneous preferences or regulation.",
+        "Portability's participation level effect is not a welfare estimate."
+      ],
+      "rows": [
+        {
+          "start": 0.05,
+          "feedback": 2.0,
+          "portability": 0.0,
+          "users": 0.018657278059637412,
+          "suppliers": 0.018657278059637412,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 2.0,
+          "portability": 0.0,
+          "users": 0.018657278059637412,
+          "suppliers": 0.018657278059637412,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.05,
+          "feedback": 2.0,
+          "portability": 0.25,
+          "users": 0.018482486106256586,
+          "suppliers": 0.018482486106256586,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.95,
+          "feedback": 2.0,
+          "portability": 0.25,
+          "users": 0.018482486106256586,
+          "suppliers": 0.018482486106256586,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.05,
+          "feedback": 2.0,
+          "portability": 0.5,
+          "users": 0.018312530074001798,
+          "suppliers": 0.018312530074001798,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 2.0,
+          "portability": 0.5,
+          "users": 0.018312530074001798,
+          "suppliers": 0.018312530074001798,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.05,
+          "feedback": 2.0,
+          "portability": 0.75,
+          "users": 0.018147176990167685,
+          "suppliers": 0.018147176990167685,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 2.0,
+          "portability": 0.75,
+          "users": 0.018147176990167685,
+          "suppliers": 0.018147176990167685,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.05,
+          "feedback": 5.0,
+          "portability": 0.0,
+          "users": 0.01982311380004028,
+          "suppliers": 0.01982311380004028,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 5.0,
+          "portability": 0.0,
+          "users": 0.01982311380004028,
+          "suppliers": 0.01982311380004028,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.05,
+          "feedback": 5.0,
+          "portability": 0.25,
+          "users": 0.01931093383009276,
+          "suppliers": 0.01931093383009276,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.95,
+          "feedback": 5.0,
+          "portability": 0.25,
+          "users": 0.01931093383009276,
+          "suppliers": 0.01931093383009276,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.05,
+          "feedback": 5.0,
+          "portability": 0.5,
+          "users": 0.018837156608676166,
+          "suppliers": 0.018837156608676166,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.95,
+          "feedback": 5.0,
+          "portability": 0.5,
+          "users": 0.018837156608676166,
+          "suppliers": 0.018837156608676166,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.05,
+          "feedback": 5.0,
+          "portability": 0.75,
+          "users": 0.018396918555712745,
+          "suppliers": 0.018396918555712745,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.95,
+          "feedback": 5.0,
+          "portability": 0.75,
+          "users": 0.018396918555712745,
+          "suppliers": 0.018396918555712745,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.05,
+          "feedback": 8.0,
+          "portability": 0.0,
+          "users": 0.02124798796136563,
+          "suppliers": 0.02124798796136563,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.95,
+          "feedback": 8.0,
+          "portability": 0.0,
+          "users": 0.9787520120386344,
+          "suppliers": 0.9787520120386344,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.05,
+          "feedback": 8.0,
+          "portability": 0.25,
+          "users": 0.02026447860133756,
+          "suppliers": 0.02026447860133756,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 8.0,
+          "portability": 0.25,
+          "users": 0.02026447860133756,
+          "suppliers": 0.02026447860133756,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.05,
+          "feedback": 8.0,
+          "portability": 0.5,
+          "users": 0.019410124314230268,
+          "suppliers": 0.019410124314230268,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.95,
+          "feedback": 8.0,
+          "portability": 0.5,
+          "users": 0.019410124314230268,
+          "suppliers": 0.019410124314230268,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.05,
+          "feedback": 8.0,
+          "portability": 0.75,
+          "users": 0.018657278059637412,
+          "suppliers": 0.018657278059637412,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 8.0,
+          "portability": 0.75,
+          "users": 0.018657278059637412,
+          "suppliers": 0.018657278059637412,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.05,
+          "feedback": 10.0,
+          "portability": 0.0,
+          "users": 0.022401111171455913,
+          "suppliers": 0.022401111171455913,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 10.0,
+          "portability": 0.0,
+          "users": 0.997464031087093,
+          "suppliers": 0.997464031087093,
+          "fixed_point_residual": 1.1102230246251565e-16
+        },
+        {
+          "start": 0.05,
+          "feedback": 10.0,
+          "portability": 0.25,
+          "users": 0.020988074185387902,
+          "suppliers": 0.020988074185387902,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 10.0,
+          "portability": 0.25,
+          "users": 0.9611605057789623,
+          "suppliers": 0.9611605057789623,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.05,
+          "feedback": 10.0,
+          "portability": 0.5,
+          "users": 0.01982311380004028,
+          "suppliers": 0.01982311380004028,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.95,
+          "feedback": 10.0,
+          "portability": 0.5,
+          "users": 0.01982311380004028,
+          "suppliers": 0.01982311380004028,
+          "fixed_point_residual": 3.469446951953614e-18
+        },
+        {
+          "start": 0.05,
+          "feedback": 10.0,
+          "portability": 0.75,
+          "users": 0.018837156608676166,
+          "suppliers": 0.018837156608676166,
+          "fixed_point_residual": 0.0
+        },
+        {
+          "start": 0.95,
+          "feedback": 10.0,
+          "portability": 0.75,
+          "users": 0.018837156608676166,
+          "suppliers": 0.018837156608676166,
+          "fixed_point_residual": 0.0
+        }
+      ]
+    },
+    "routing": {
+      "scope": "hypothetical routing sensitivity",
+      "cost_unit": "arbitrary units",
+      "assumptions": [
+        "Fallback success is conditional on the escalated subset.",
+        "Verifier is applied to cheap outputs; strong outputs are final.",
+        "No external actions occur; costs omit human recovery and service fees."
+      ],
+      "rows": [
+        {
+          "cheap_success": 0.4,
+          "false_accept": 0.0,
+          "correct_probability": 0.969,
+          "accepted_wrong_without_escalation": 0.0,
+          "escalation_probability": 0.62,
+          "expected_cost": 6.46
+        },
+        {
+          "cheap_success": 0.4,
+          "false_accept": 0.05,
+          "correct_probability": 0.9405,
+          "accepted_wrong_without_escalation": 0.03,
+          "escalation_probability": 0.59,
+          "expected_cost": 6.22
+        },
+        {
+          "cheap_success": 0.4,
+          "false_accept": 0.2,
+          "correct_probability": 0.855,
+          "accepted_wrong_without_escalation": 0.12,
+          "escalation_probability": 0.5,
+          "expected_cost": 5.5
+        },
+        {
+          "cheap_success": 0.6,
+          "false_accept": 0.0,
+          "correct_probability": 0.9784999999999999,
+          "accepted_wrong_without_escalation": 0.0,
+          "escalation_probability": 0.43000000000000005,
+          "expected_cost": 4.94
+        },
+        {
+          "cheap_success": 0.6,
+          "false_accept": 0.05,
+          "correct_probability": 0.9595,
+          "accepted_wrong_without_escalation": 0.020000000000000004,
+          "escalation_probability": 0.41000000000000003,
+          "expected_cost": 4.78
+        },
+        {
+          "cheap_success": 0.6,
+          "false_accept": 0.2,
+          "correct_probability": 0.9025,
+          "accepted_wrong_without_escalation": 0.08000000000000002,
+          "escalation_probability": 0.35000000000000003,
+          "expected_cost": 4.300000000000001
+        },
+        {
+          "cheap_success": 0.8,
+          "false_accept": 0.0,
+          "correct_probability": 0.988,
+          "accepted_wrong_without_escalation": 0.0,
+          "escalation_probability": 0.24,
+          "expected_cost": 3.42
+        },
+        {
+          "cheap_success": 0.8,
+          "false_accept": 0.05,
+          "correct_probability": 0.9784999999999999,
+          "accepted_wrong_without_escalation": 0.009999999999999998,
+          "escalation_probability": 0.22999999999999998,
+          "expected_cost": 3.34
+        },
+        {
+          "cheap_success": 0.8,
+          "false_accept": 0.2,
+          "correct_probability": 0.95,
+          "accepted_wrong_without_escalation": 0.039999999999999994,
+          "escalation_probability": 0.2,
+          "expected_cost": 3.1
+        },
+        {
+          "cheap_success": 0.9,
+          "false_accept": 0.0,
+          "correct_probability": 0.99275,
+          "accepted_wrong_without_escalation": 0.0,
+          "escalation_probability": 0.14500000000000002,
+          "expected_cost": 2.66
+        },
+        {
+          "cheap_success": 0.9,
+          "false_accept": 0.05,
+          "correct_probability": 0.988,
+          "accepted_wrong_without_escalation": 0.004999999999999999,
+          "escalation_probability": 0.14,
+          "expected_cost": 2.62
+        },
+        {
+          "cheap_success": 0.9,
+          "false_accept": 0.2,
+          "correct_probability": 0.97375,
+          "accepted_wrong_without_escalation": 0.019999999999999997,
+          "escalation_probability": 0.12500000000000003,
+          "expected_cost": 2.5
+        }
+      ],
+      "strong_only": {
+        "cost": 8.0,
+        "correct_probability": 0.95
+      }
+    },
+    "verification": {
+      "scope": "hypothetical expected-loss analysis",
+      "unit": "arbitrary cost units",
+      "assumptions": [
+        "Rejected cases receive perfect human review.",
+        "False accepts incur a fixed loss; all costs are linear.",
+        "Hard prohibitions override any favorable expected value."
+      ],
+      "rows": [
+        {
+          "loss": 1.0,
+          "false_accept": 0.01,
+          "unchecked_expected_loss": 0.09999999999999998,
+          "checked_expected_cost_and_loss": 1.4329999999999998,
+          "review_fraction": 0.144,
+          "net_reduction": -1.3329999999999997
+        },
+        {
+          "loss": 1.0,
+          "false_accept": 0.1,
+          "unchecked_expected_loss": 0.09999999999999998,
+          "checked_expected_cost_and_loss": 1.4149999999999998,
+          "review_fraction": 0.13499999999999998,
+          "net_reduction": -1.315
+        },
+        {
+          "loss": 1.0,
+          "false_accept": 0.5,
+          "unchecked_expected_loss": 0.09999999999999998,
+          "checked_expected_cost_and_loss": 1.3350000000000002,
+          "review_fraction": 0.095,
+          "net_reduction": -1.2350000000000003
+        },
+        {
+          "loss": 10.0,
+          "false_accept": 0.01,
+          "unchecked_expected_loss": 0.9999999999999998,
+          "checked_expected_cost_and_loss": 1.442,
+          "review_fraction": 0.144,
+          "net_reduction": -0.44200000000000017
+        },
+        {
+          "loss": 10.0,
+          "false_accept": 0.1,
+          "unchecked_expected_loss": 0.9999999999999998,
+          "checked_expected_cost_and_loss": 1.505,
+          "review_fraction": 0.13499999999999998,
+          "net_reduction": -0.5050000000000001
+        },
+        {
+          "loss": 10.0,
+          "false_accept": 0.5,
+          "unchecked_expected_loss": 0.9999999999999998,
+          "checked_expected_cost_and_loss": 1.7850000000000001,
+          "review_fraction": 0.095,
+          "net_reduction": -0.7850000000000004
+        },
+        {
+          "loss": 100.0,
+          "false_accept": 0.01,
+          "unchecked_expected_loss": 9.999999999999998,
+          "checked_expected_cost_and_loss": 1.532,
+          "review_fraction": 0.144,
+          "net_reduction": 8.467999999999998
+        },
+        {
+          "loss": 100.0,
+          "false_accept": 0.1,
+          "unchecked_expected_loss": 9.999999999999998,
+          "checked_expected_cost_and_loss": 2.405,
+          "review_fraction": 0.13499999999999998,
+          "net_reduction": 7.594999999999999
+        },
+        {
+          "loss": 100.0,
+          "false_accept": 0.5,
+          "unchecked_expected_loss": 9.999999999999998,
+          "checked_expected_cost_and_loss": 6.284999999999999,
+          "review_fraction": 0.095,
+          "net_reduction": 3.714999999999999
+        },
+        {
+          "loss": 1000.0,
+          "false_accept": 0.01,
+          "unchecked_expected_loss": 99.99999999999997,
+          "checked_expected_cost_and_loss": 2.4319999999999995,
+          "review_fraction": 0.144,
+          "net_reduction": 97.56799999999997
+        },
+        {
+          "loss": 1000.0,
+          "false_accept": 0.1,
+          "unchecked_expected_loss": 99.99999999999997,
+          "checked_expected_cost_and_loss": 11.404999999999998,
+          "review_fraction": 0.13499999999999998,
+          "net_reduction": 88.59499999999997
+        },
+        {
+          "loss": 1000.0,
+          "false_accept": 0.5,
+          "unchecked_expected_loss": 99.99999999999997,
+          "checked_expected_cost_and_loss": 51.28499999999998,
+          "review_fraction": 0.095,
+          "net_reduction": 48.71499999999999
+        }
+      ]
+    },
+    "retry": {
+      "scope": "hypothetical ambiguous-response analysis",
+      "assumptions": [
+        "A retry commits unless deduplication recognizes an existing effect.",
+        "A positive read is authoritative; a missing read is not proof of absence.",
+        "Visibility and deduplication are conditionally independent given commitment.",
+        "Read-only policy waits on missing evidence, including truly absent effects."
+      ],
+      "rows": [
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 0.0,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.1,
+          "read_then_retry_on_missing_duplicate_probability": 0.05,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.95
+        },
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 0.0,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.1,
+          "read_then_retry_on_missing_duplicate_probability": 0.009999999999999998,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.91
+        },
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 0.0,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.1,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.9
+        },
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 0.9,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.009999999999999998,
+          "read_then_retry_on_missing_duplicate_probability": 0.004999999999999999,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.95
+        },
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 0.9,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.009999999999999998,
+          "read_then_retry_on_missing_duplicate_probability": 0.0009999999999999996,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.91
+        },
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 0.9,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.009999999999999998,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.9
+        },
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 1.0,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.95
+        },
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 1.0,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.91
+        },
+        {
+          "committed_given_unknown": 0.1,
+          "dedup_effective": 1.0,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.9
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 0.0,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.5,
+          "read_then_retry_on_missing_duplicate_probability": 0.25,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.75
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 0.0,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.5,
+          "read_then_retry_on_missing_duplicate_probability": 0.04999999999999999,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.55
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 0.0,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.5,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.5
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 0.9,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.04999999999999999,
+          "read_then_retry_on_missing_duplicate_probability": 0.024999999999999994,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.75
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 0.9,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.04999999999999999,
+          "read_then_retry_on_missing_duplicate_probability": 0.0049999999999999975,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.55
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 0.9,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.04999999999999999,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.5
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 1.0,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.75
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 1.0,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.55
+        },
+        {
+          "committed_given_unknown": 0.5,
+          "dedup_effective": 1.0,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.5
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 0.0,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.9,
+          "read_then_retry_on_missing_duplicate_probability": 0.45,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.55
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 0.0,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.9,
+          "read_then_retry_on_missing_duplicate_probability": 0.08999999999999998,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.18999999999999995
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 0.0,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.9,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.09999999999999998
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 0.9,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.08999999999999998,
+          "read_then_retry_on_missing_duplicate_probability": 0.04499999999999999,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.55
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 0.9,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.08999999999999998,
+          "read_then_retry_on_missing_duplicate_probability": 0.008999999999999996,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.18999999999999995
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 0.9,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.08999999999999998,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.09999999999999998
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 1.0,
+          "visibility": 0.5,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.55
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 1.0,
+          "visibility": 0.9,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.18999999999999995
+        },
+        {
+          "committed_given_unknown": 0.9,
+          "dedup_effective": 1.0,
+          "visibility": 1.0,
+          "blind_retry_duplicate_probability": 0.0,
+          "read_then_retry_on_missing_duplicate_probability": 0.0,
+          "read_only_duplicate_probability": 0.0,
+          "read_only_unresolved_probability": 0.09999999999999998
+        }
+      ]
+    }
+  }
+}
