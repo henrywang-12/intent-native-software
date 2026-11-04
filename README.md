@@ -11,6 +11,10 @@ The next software opportunity may lie in making delegated action dependable: per
 
 ![Proposed shared environment for people and agents](paper/figures/architecture.svg)
 
+### New: platform power and shared identity
+
+**[Read the November 4 companion](research/platform-power/README.md)** — 18 analytical notes on app stores, Weixin, marketplace concentration, small service software and portable identity, plus a synthetic economics model with nine tests. Includes a transaction-state example and a diagram of the proposed feedback loop. Monopoly remains a conditional thesis, not a prediction of inevitability.
+
 ### What the paper develops
 
 - Human-agent coexistence through shared state, bounded delegation and recoverable tasks.
